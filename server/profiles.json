@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Adam Kent",
+        "hometown": "Mesa, AZ",
+        "faculty": true,
+        "img": "https://avatars0.githubusercontent.com/u/49373960?s=400&u=c21eadca2224bee70cdc3aab4f1cafb17a83f188&v=4",
+        "quote": "Later, Losers!"
+
+    },
+    {
+        "id": 2,
+        "name": "Lucas Schaat",
+        "hometown": "Rexburg, ID",
+        "faculty": true,
+        "img": "https://avatars2.githubusercontent.com/u/51310354?s=400&u=2466cad549fd4cb653070a2d4b49edbc0f1dec2f&v=4",
+        "quote": "Don't ever, for any reason, do anything to anyone for any reason ever, no matter what, no matter where, or who, or who you are with, or where you are going, or where you've been... ever, for any reason whatsoever..."
+
+    },
+    {
+        "id": 3,
+        "name": "Rob Knowles",
+        "hometown": "Huntsville, UT",
+        "faculty": true,
+        "img": "https://avatars0.githubusercontent.com/u/52173181?s=400&u=56c85b9a85be120fea6677f21cff0bb2e29650d3&v=4",
+        "quote": "Be excellent to each other... party on dudes!"
+
+    },
+    {
+        "id": 4,
+        "name": "Spongebob Squarepants",
+        "hometown": "Bikini Bottom",
+        "faculty": false,
+        "img": "https://i.redd.it/ajxic7yhakxz.jpg",
+        "quote": "Well, it's no secret that the best thing about a secret is secretly telling someone your secret, thereby adding another secret to their secret collection of secrets, secretly."
+
+    },
+    {
+        "id": 5,
+        "name": "Sandy Cheeks",
+        "hometown": "Somewhere, TX",
+        "faculty": false,
+        "img": "https://vignette.wikia.nocookie.net/joshkomisarcik/images/4/4c/Sandycheeks_1.jpg/revision/latest/top-crop/width/360/height/450?cb=20190814122239",
+        "quote": "Stupidity isn't a virus... but it sure is spreading like one."
+        
+
+    },
+    {
+        "id": 6,
+        "name": "Patrick Star",
+        "hometown": "Bikini Bottom",
+        "faculty": false,
+        "img": "https://www.denofgeek.com/wp-content/uploads/2013/11/patrick-star-wallpaper.jpg?resize=768%2C432",
+        "quote": "You know: I wumbo, you wumbo, he, she, me... wumbo... wumboing, wumbology: the study of wumbo. It's first grade, Spongebob!"
+
+    },
+    {
+        "id": 7,
+        "name": "Sheldon J. Plankton",
+        "hometown": "Bikini Bottom",
+        "faculty": true,
+        "img": "https://i.pinimg.com/originals/5f/7a/38/5f7a38445fb9f317a4f78b955ae825ce.jpg",
+        "quote": "That's it mister, YOU JUST LOST YOUR BRAIN PRIVILEGES!"
+    }
+]
