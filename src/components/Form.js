@@ -43,7 +43,7 @@ function Form (props) {
                     placeholder=" Quote"
                     onChange={(e) => props.quoteHandler(e)}></input>
                     <button className="submit" type="submit">SUBMIT</button>
-                    {/* <img alt="Dev Mountain" src="https://lms.devmountain.com/accounts/2/files/8368/download?verifier=ofKWBn453ylw0WUzVww241M2bpJcjrtZNMRCpKKp"/> */}
+                   
                 </form>
             </div>
         )
