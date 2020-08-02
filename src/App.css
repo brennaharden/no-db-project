@@ -1,0 +1,97 @@
+body {
+    height: 100vh;
+}
+
+.my-header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2aabe2;
+}
+
+.title {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+}
+
+.main-section {
+    width: 100vw;
+}
+
+.group-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.grouping {
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    color: #2aabe2;
+}
+
+.profile-group {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-container {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    height: 250px;
+}
+
+.info {
+    font-family: 'Lato', sans-serif;
+}
+.update-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.update {
+    height: 20px;
+    cursor: pointer;
+}
+
+.form-container {
+    width: 100vw;
+    height: 100px;
+    background-color: #2D3B45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-style {
+    width: 100vw;
+    background-color: #2D3B45;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dropdown {
+    cursor: pointer;
+}
+
+.submit {
+    cursor: pointer;
+}
+

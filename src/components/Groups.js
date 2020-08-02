@@ -158,14 +158,21 @@ class Groups extends React.Component{
 
         return (
             
-            <div>
-                <h2>FACULTY</h2>
-                {facultyMap}
-                
-                <h2>STUDENTS</h2>
-                {studentMap}
-                
-                <Form 
+            <div className="main-section">
+                <div className="group-name">
+                <h2 className="grouping">FACULTY</h2>
+                </div>
+                <div className="profile-group">
+                    {facultyMap}
+                </div>
+                <div className="group-name">
+                <h2 className="grouping">STUDENTS</h2>
+                </div>
+                <div className="profile-group">
+                    {studentMap}
+                </div>
+                <div className="form-container">                
+                <Form  
                 id={id}
                 name={name}
                 hometown={hometown}
@@ -180,6 +187,7 @@ class Groups extends React.Component{
                 imageHandler={this.imageHandler}
                 quoteHandler={this.quoteHandler}
                 facultyHandler={this.facultyHandler}/>
+                </div>
             </div>
         )
     }
