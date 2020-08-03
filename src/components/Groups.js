@@ -15,7 +15,8 @@ class Groups extends React.Component{
             faculty: true,
             img: "",
             quote: "",
-            editing: false
+            editing: false,
+            button: "SUBMIT"
         }
 
         this.nameHandler = this.nameHandler.bind(this)
@@ -86,7 +87,8 @@ class Groups extends React.Component{
                 hometown: "",
                 faculty: true,
                 img: "",
-                quote: ""
+                quote: "",
+                button: "SUBMIT"
             })
         })
         .catch(err => console.log(err))
@@ -100,7 +102,8 @@ class Groups extends React.Component{
             faculty: profile.faculty,
             img: profile.img,
             quote: profile.quote,
-            editing: true
+            editing: true,
+            button: "UPDATE"
         })
     }
 
@@ -154,7 +157,7 @@ class Groups extends React.Component{
         
 
         //profiles map here
-        const {id, name, hometown, faculty, img, quote, editing} = this.state
+        const {id, name, hometown, faculty, img, quote, editing, button} = this.state
 
         return (
             
@@ -180,6 +183,7 @@ class Groups extends React.Component{
                 img={img}
                 quote={quote}
                 editing={editing}
+                button={button}
                 updateProfile={this.updateProfile}
                 postProfile={this.postProfile}
                 nameHandler={this.nameHandler}

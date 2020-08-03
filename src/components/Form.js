@@ -46,7 +46,7 @@ function Form (props) {
                     type="text"
                     placeholder=" Quote"
                     onChange={(e) => props.quoteHandler(e)}></textarea>
-                    <button className="submit" type="submit">SUBMIT</button>
+                    <button className="submit" type="submit">{props.button}</button>
                 </form>
             </div>
         )
