@@ -27,8 +27,8 @@ class Profile extends React.Component {
         
         <div className="wordy">  
             <img className="profile-photo" src={this.props.profile.img} alt={this.props.profile.name} onMouseEnter={this.toggleQuote} onMouseLeave={this.hideQuote}/>
-            <h3 className="info">{this.props.profile.name}</h3>
-            <h3 className="info">{this.props.profile.hometown}</h3>
+            <h3 className="name">{this.props.profile.name}</h3>
+            <h3 className="hometown">{this.props.profile.hometown}</h3>
         </div>
         {this.state.quoteVisible ? (
         <div className="quote-container">

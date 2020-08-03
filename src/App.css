@@ -60,7 +60,13 @@ body {
     cursor: url(https://img.icons8.com/material-outlined/32/FFFFFF/filled-topic.png), auto;
 }
 
-.info {
+.name {
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    line-height: 1.5;
+}
+
+.hometown {
     font-family: 'Lato', sans-serif;
 }
 
