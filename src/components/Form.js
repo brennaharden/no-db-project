@@ -32,18 +32,19 @@ function Form (props) {
                     onChange={(e) => props.hometownHandler(e)}></input>
                     <input
                     name="img"
+                    className="img-input"
                     value={props.img}
                     type="text"
                     placeholder=" Image URL"
                     onChange={(e) => props.imageHandler(e)}></input>
                     <input
                     name="quote"
+                    className="quote-input"
                     value={props.quote}
                     type="text"
                     placeholder=" Quote"
                     onChange={(e) => props.quoteHandler(e)}></input>
                     <button className="submit" type="submit">SUBMIT</button>
-                   
                 </form>
             </div>
         )

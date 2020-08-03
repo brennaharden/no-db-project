@@ -32,6 +32,7 @@ body {
 .grouping {
     font-family: 'Lato', sans-serif;
     font-size: 26px;
+    font-weight: 700;
     color: #2aabe2;
 }
 
@@ -129,14 +130,25 @@ body {
     background-color: #2D3B45;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 10px;
 }
 
 .dropdown {
     cursor: pointer;
 }
 
+.img-input {
+    width: 200px;
+}
+
+.quote-input {
+    width: 450px;
+    display: flex;
+}
+
 .submit {
     cursor: pointer;
+    margin-right: 10px;
 }
 
