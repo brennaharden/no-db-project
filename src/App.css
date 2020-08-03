@@ -48,16 +48,30 @@ body {
     display: flex;
     margin-top: 10px;
     margin-bottom: 20px;
+    
+}
+
+.profile-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.adjuster {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    cursor: url(https://img.icons8.com/material-outlined/32/FFFFFF/filled-topic.png), auto;
 }
 
 .wordy {
     display: flex;
     flex-direction: column;
+    width: fit-content;
 }
 
 .profile-photo {
     height: 250px;
-    cursor: url(https://img.icons8.com/material-outlined/32/FFFFFF/filled-topic.png), auto;
 }
 
 .name {
@@ -70,10 +84,12 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+
 .quote-container {
-    height: 1%;
-    width: 225px;
+    height: 100%;
+    width: 100%;
     display: flex;
+    position: absolute;
     overflow: hidden;
     flex-direction: column;
     align-items: flex-start;
@@ -81,18 +97,20 @@ body {
     padding-left: 5px;
     border: solid;
     border-color: #fd844c;
-    border-width: 1px 1px 1px 5px;
+    border-width: 1px 1px 1px 1px;
+    background-color: rgba(255, 255, 255, 0.425);
+    
 }
 
 .startquote {
     display: flex;
-    width: 200px;
+    width: 100%;
     height: 50px;
     justify-content: flex-start;
 }
 .quote {
     display: flex;
-    width: 200px;
+    width: 100%;
     justify-content: center;
     text-align: center;
     font-family: 'Lato', sans-serif; 
@@ -100,7 +118,7 @@ body {
 
 .endquote {
     display: flex;
-    width: 200px;
+    width: 100%;
     height: 50px;
     justify-content: flex-end;
 }
@@ -142,19 +160,32 @@ body {
 
 .dropdown {
     cursor: pointer;
+    font-family: 'Lato', sans-serif;
+}
+
+.name-input {
+    font-family: 'Lato', sans-serif;
+}
+
+.hometown-input {
+    font-family: 'Lato', sans-serif;
 }
 
 .img-input {
     width: 200px;
+    font-family: 'Lato', sans-serif;
 }
 
 .quote-input {
     width: 450px;
-    display: flex;
+    height: 50px;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
 }
 
 .submit {
     cursor: pointer;
     margin-right: 10px;
+    font-family: 'Lato', sans-serif;
 }
 
