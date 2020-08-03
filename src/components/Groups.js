@@ -12,7 +12,7 @@ class Groups extends React.Component{
             id: 0,
             name: "",
             hometown: "",
-            faculty: "",
+            faculty: true,
             img: "",
             quote: "",
             editing: false
@@ -23,6 +23,8 @@ class Groups extends React.Component{
         this.imageHandler = this.imageHandler.bind(this)
         this.quoteHandler = this.quoteHandler.bind(this)
         this.facultyHandler = this.facultyHandler.bind(this)
+        this.repopulate = this.repopulate.bind(this)
+        this.deleteProfile = this.deleteProfile.bind(this)
     }
 
     componentDidMount(){
@@ -47,7 +49,7 @@ class Groups extends React.Component{
                 profiles: res.data,
                 name: "",
                 hometown: "",
-                faculty: "",
+                faculty: true,
                 img: "",
                 quote: ""
             })
@@ -82,7 +84,7 @@ class Groups extends React.Component{
                 editing: false,
                 name: "",
                 hometown: "",
-                faculty: "",
+                faculty: true,
                 img: "",
                 quote: ""
             })
@@ -127,9 +129,7 @@ class Groups extends React.Component{
     }
 
     facultyHandler = (e) => {
-        this.setState({
-            faculty: e.target.value
-        })
+        this.setState({ faculty: e.target.value === "true" ? true : false })
     }
 
     render(){
@@ -143,13 +143,13 @@ class Groups extends React.Component{
         const facultyMap = this.state.profiles
         .filter(profile => profile.faculty)
         .map(profile => {
-            return <Profile {...{...actions, key: profile.id, ...profile }} />
+            return <Profile {...{...actions, key: profile.id, profile}} />
         })
 
         const studentMap = this.state.profiles
         .filter(profile => !profile.faculty)
         .map(profile => {
-            return <Profile {...{...actions, key: profile.id, ...profile }}/>
+            return <Profile {...{...actions, key: profile.id, profile}}/>
         })
         
 
